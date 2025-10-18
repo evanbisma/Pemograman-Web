@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background: white;
+  padding: 24px;
+  border-radius: 7px;
+  box-shadow: 0 0 18px rgba(38,78,134,0.20);
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 2px solid lightblue;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  padding: 14px 12px;
+}
+
+legend {
+  color: navy;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+td {
+  padding: 6px;
+  vertical-align: middle;
+}
+
+label {
+  color: steelblue;
+  font-size: 15px;
+}
+
+form strong {
+  color: steelblue;
+}
+
+input[type="text"], input[type="date"], select {
+  width: 95%;
+  padding: 6px 9px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  background-color: white;
+  margin-bottom: 4px;
+}
+
+input[type="radio"] {
+  margin-right: 7px;
+}
+
+input[type="submit"] {
+  background-color: steelblue;
+  color: #fff;
+  padding: 10px 36px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 14px;
+  transition: background 0.22s;
+}
+
+input[type="submit"]:hover {
+  background-color: navy;
+}
